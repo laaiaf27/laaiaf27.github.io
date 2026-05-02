@@ -5,6 +5,23 @@ date: 2026-05-02
 categories: [biomedicine, cloud-computing, metabolomics]
 ---
 
+<style>
+.post-content {
+  text-align: center;
+}
+
+.post-content table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
 ## METASPACE: Exploring Spatial Metabolomics in the Cloud
 
 Biomedical research is producing increasingly large and complex datasets. This is especially true in omics sciences, where technologies such as genomics, proteomics and metabolomics generate massive amounts of biological information. In metabolomics, researchers study small molecules that reflect the biochemical state of cells, tissues and organisms. These molecules can provide valuable information about health and disease, including cancer, metabolic disorders and inflammatory processes.
@@ -32,6 +49,7 @@ Cloud-based platforms also support reproducibility. If workflows, parameters and
 | Web interface | Users can access complex tools without installing specialised software. |
 | Spatial visualisation | Metabolites can be interpreted in their tissue context. |
 
+
 ### What is METASPACE?
 
 METASPACE is a cloud-based platform for spatial metabolomics. More specifically, it is designed for the annotation and interpretation of imaging mass spectrometry data. Imaging mass spectrometry allows researchers to study where metabolites are located within a tissue section. Instead of only knowing that a metabolite is present in a sample, researchers can visualise its spatial distribution.
@@ -44,7 +62,10 @@ This is especially interesting in biomedicine because tissues are heterogeneous.
 
 METASPACE works as an online environment where users can upload imaging mass spectrometry datasets, perform metabolite annotation and visualise results. It also acts as a community-populated knowledge base, meaning that public datasets can contribute to a larger resource of annotated spatial metabolomes.
 
-<img src="https://github.com/user-attachments/assets/a1318cf2-f590-4b44-8429-2409c6741fb3" alt="METASPACE metabolite annotation example" style="max-width:100%; height:auto;" />*Figure 2. METASPACE allows users to explore putative metabolite annotations and visualise where a selected molecular ion is distributed within a tissue section. This illustrates how cloud-based tools can make complex spatial metabolomics data easier to inspect and share.*
+
+<img src="https://github.com/user-attachments/assets/a1318cf2-f590-4b44-8429-2409c6741fb3" alt="METASPACE metabolite annotation example" style="max-width:100%; height:auto;" />
+*Figure 2. METASPACE allows users to explore putative metabolite annotations and visualise where a selected molecular ion is distributed within a tissue section. This illustrates how cloud-based tools can make complex spatial metabolomics data easier to inspect and share.*
+
 
 ### Why METASPACE is a good example of a biomedical cloud application
 
@@ -61,6 +82,7 @@ Finally, METASPACE is particularly valuable because it focuses on spatial inform
   Tissue section → Imaging mass spectrometry data → Upload to METASPACE → Metabolite annotation → Spatial visualisation → Biological interpretation
 </div>
 
+
 ### Connection with PhenoMeNal and other cloud metabolomics tools
 
 The PhenoMeNal project is another important example of cloud-based metabolomics infrastructure. PhenoMeNal was designed to integrate open-source tools into reproducible workflows using technologies such as Docker containers, Kubernetes and user-friendly interfaces including Galaxy and Jupyter. The goal was to provide researchers with scalable, interoperable and reproducible metabolomics workflows.
@@ -68,6 +90,7 @@ The PhenoMeNal project is another important example of cloud-based metabolomics 
 Although PhenoMeNal and METASPACE are not the same type of platform, they respond to similar needs: metabolomics data are complex, computationally demanding and require standardised analysis tools. Both examples show how cloud computing can help transform metabolomics into a more accessible and collaborative field.
 
 Warth et al. also highlight XCMS Online as an example of how cloud computing can make untargeted metabolomics analysis available to a global research community. In the same way, METASPACE extends this idea to imaging mass spectrometry and spatial metabolomics.
+
 
 ### Challenges and limitations
 
@@ -81,11 +104,13 @@ Finally, cloud tools should avoid becoming “black boxes”. Researchers need t
   <strong>Important:</strong> Cloud-based biomedical tools are powerful, but researchers must consider data privacy, internet dependency and the transparency of the algorithms used for analysis.
 </div>
 
+
 ### Conclusion
 
-METASPACE is a clear example of how cloud computing can support biomedical research. Enabling online analysis, annotation, visualisation and sharing of imaging mass spectrometry data, it makes spatial metabolomics more accessible and reproducible.
+METASPACE is a clear example of how cloud computing can support biomedical research. By enabling online analysis, annotation, visualisation and sharing of imaging mass spectrometry data, METASPACE makes spatial metabolomics more accessible and reproducible.
 
 Cloud-based metabolomics platforms such as METASPACE, PhenoMeNal and XCMS Online show that the future of biomedical data analysis will not only depend on generating more data, but also on creating better infrastructures to process, share and interpret that data. In this context, cloud computing is becoming an essential tool for modern biomedicine.
+
 
 ### References
 
