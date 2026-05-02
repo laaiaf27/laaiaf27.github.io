@@ -11,6 +11,11 @@ Biomedical research is producing increasingly large and complex datasets. This i
 
 However, analysing metabolomics data is not simple. Mass spectrometry and nuclear magnetic resonance technologies can produce large datasets that require specific computational tools, data processing workflows and statistical analysis. As Peters et al. explain in their article about PhenoMeNal, metabolomics data analysis is computationally intensive and often requires open data formats, repositories and interoperable tools (Peters et al., 2019). This is one of the reasons why cloud computing has become increasingly relevant in biomedical research.
 
+<div class="alert alert-info" role="alert">
+  <strong>Note:</strong> METASPACE is a cloud-based platform for metabolite annotation of imaging mass spectrometry data. In this post, I explore why this type of tool is useful in biomedical research.
+</div>
+
+
 ### Why cloud computing matters in metabolomics
 
 Cloud computing allows researchers to process data using remote computational resources instead of relying only on their own computers. This is useful because metabolomics datasets can be too large or too complex to analyse locally. Cloud platforms can provide scalable storage, computational power, data sharing and access to specialised bioinformatic tools.
@@ -19,11 +24,19 @@ Warth et al. describe several advantages of cloud-based bioinformatic platforms,
 
 Cloud-based platforms also support reproducibility. If workflows, parameters and results are stored and shared in the same environment, other researchers can better understand how an analysis was performed and potentially repeat or adapt it. This is a key issue in biomedical research, where reproducibility and transparency are essential.
 
+| Feature | Why it matters in metabolomics |
+|---|---|
+| Cloud processing | Large datasets can be analysed without relying only on local computers. |
+| Data sharing | Researchers can share results and compare annotations more easily. |
+| Standardised workflows | Analyses become more reproducible and transparent. |
+| Web interface | Users can access complex tools without installing specialised software. |
+| Spatial visualisation | Metabolites can be interpreted in their tissue context. |
+
 ### What is METASPACE?
 
 METASPACE is a cloud-based platform for spatial metabolomics. More specifically, it is designed for the annotation and interpretation of imaging mass spectrometry data. Imaging mass spectrometry allows researchers to study where metabolites are located within a tissue section. Instead of only knowing that a metabolite is present in a sample, researchers can visualise its spatial distribution.
 
-<img width="1327" height="564" alt="image" src="https://github.com/user-attachments/assets/d40b6f5f-3b7a-4fc1-9281-03785df0748b" />
+<img src="https://github.com/user-attachments/assets/d40b6f5f-3b7a-4fc1-9281-03785df0748b" alt="METASPACE homepage" style="max-width:100%; height:auto;" />
 *Figure 1. METASPACE homepage. The platform is presented as a web-based tool for metabolite annotation of imaging mass spectrometry data, allowing users to upload datasets, explore annotations and access community resources.*
 
 
@@ -31,9 +44,7 @@ This is especially interesting in biomedicine because tissues are heterogeneous.
 
 METASPACE works as an online environment where users can upload imaging mass spectrometry datasets, perform metabolite annotation and visualise results. It also acts as a community-populated knowledge base, meaning that public datasets can contribute to a larger resource of annotated spatial metabolomes.
 
-<img width="1341" height="589" alt="image" src="https://github.com/user-attachments/assets/a1318cf2-f590-4b44-8429-2409c6741fb3" />
-*Figure 2. METASPACE allows users to explore putative metabolite annotations and visualise where a selected molecular ion is distributed within a tissue section. This illustrates how cloud-based tools can make complex spatial metabolomics data easier to inspect and share.*
-
+<img src="https://github.com/user-attachments/assets/a1318cf2-f590-4b44-8429-2409c6741fb3" alt="METASPACE metabolite annotation example" style="max-width:100%; height:auto;" />*Figure 2. METASPACE allows users to explore putative metabolite annotations and visualise where a selected molecular ion is distributed within a tissue section. This illustrates how cloud-based tools can make complex spatial metabolomics data easier to inspect and share.*
 
 ### Why METASPACE is a good example of a biomedical cloud application
 
@@ -44,6 +55,11 @@ Second, it supports data sharing and comparison between studies. This is importa
 Third, METASPACE contributes to reproducibility. In metabolomics, annotation is one of the most challenging steps. A cloud platform can help standardise this process and make results more transparent.
 
 Finally, METASPACE is particularly valuable because it focuses on spatial information. Many metabolomics studies analyse homogenised samples, where the original tissue structure is lost. Spatial metabolomics preserves this context and can therefore provide more biologically meaningful information.
+
+<div class="alert alert-info" role="alert">
+  <strong>Simplified METASPACE workflow:</strong><br>
+  Tissue section → Imaging mass spectrometry data → Upload to METASPACE → Metabolite annotation → Spatial visualisation → Biological interpretation
+</div>
 
 ### Connection with PhenoMeNal and other cloud metabolomics tools
 
@@ -60,6 +76,10 @@ Despite its advantages, cloud computing in biomedicine also has limitations. One
 Another limitation is internet dependency. Uploading large imaging mass spectrometry datasets can be slow, and users need stable internet connections. In addition, although cloud platforms simplify analysis, users still need to understand the biological meaning of the results and the limitations of metabolite annotation.
 
 Finally, cloud tools should avoid becoming “black boxes”. Researchers need transparency about algorithms, parameters and databases used for annotation. This is essential to interpret the results correctly.
+
+<div class="alert alert-warning" role="alert">
+  <strong>Important:</strong> Cloud-based biomedical tools are powerful, but researchers must consider data privacy, internet dependency and the transparency of the algorithms used for analysis.
+</div>
 
 ### Conclusion
 
