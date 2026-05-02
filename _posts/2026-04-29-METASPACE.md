@@ -5,12 +5,6 @@ date: 2026-05-02
 categories: [biomedicine, cloud-computing, metabolomics]
 ---
 
-<style>
-.post-content p {
-  text-align: justify;
-}
-</style>
-
 ## METASPACE: Exploring Spatial Metabolomics in the Cloud
 
 Biomedical research is producing increasingly large and complex datasets. This is especially true in omics sciences, where technologies such as genomics, proteomics and metabolomics generate massive amounts of biological information. In metabolomics, researchers study small molecules that reflect the biochemical state of cells, tissues and organisms. These molecules can provide valuable information about health and disease, including cancer, metabolic disorders and inflammatory processes.
